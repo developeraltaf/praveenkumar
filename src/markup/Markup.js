@@ -65,7 +65,7 @@ import ScrollToTop from './Element/ScrollToTop';
 class Markup extends Component{
 	render(){
 		return(
-			<BrowserRouter basename="/react/demo">
+			<BrowserRouter basename="/">
                 <div className="page-wraper">
                     <Switch>
                         <Route path='/' exact component={Homepage} />
@@ -75,7 +75,7 @@ class Markup extends Component{
                         <Route path='/index-5' exact component={Index5} />
                         <Route path='/index-6' exact component={Index6} />
                         <Route path='/index-7' exact component={Index7} />
-                        <Route path='/about-1' exact component={Aboutus1} />
+                        <Route path='/about' exact component={Aboutus1} />
                         <Route path='/about-2' exact component={Aboutus2} />
                         <Route path='/error-403' exact component={Error403} />
                         <Route path='/error-404' exact component={Error404} />
@@ -83,7 +83,7 @@ class Markup extends Component{
                         <Route path='/coming-soon-1' exact component={ComingSoon1} />
                         <Route path='/under-maintenance' exact component={UnderMaintenance} />
                         <Route path='/expertise' exact component={Expertise} />
-                        <Route path='/project-management' exact component={ProjectManagement} />
+                        <Route path='/project' exact component={ProjectManagement} />
                         <Route path='/our-projects' exact component={OurProjects} />
                         <Route path='/project-details' exact component={ProjectDetails} />
                         <Route path='/team' exact component={Team} />
@@ -102,7 +102,7 @@ class Markup extends Component{
                         <Route path='/blog-list-left-sidebar' exact component={BlogListLeftSidebar} />
                         <Route path='/blog-list-right-sidebar' exact component={BlogListRightSidebar} />
                         <Route path='/blog-details' exact component={BlogDetails} />
-                        <Route path='/portfolio-full-width' exact component={ProtfolioFullWidth} />
+                        <Route path='/portfolio' exact component={ProtfolioFullWidth} />
                         <Route path='/portfolio-grid-2' exact component={PortfolioGrid2} />
                         <Route path='/portfolio-grid-3' exact component={PortfolioGrid3} />
                         <Route path='/portfolio-grid-4' exact component={PortfolioGrid4} />
