@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import ThemeButton from './Element/ThemeButton/ThemeButton';
 
 import Homepage from './Pages/Homepage1';
@@ -65,7 +65,7 @@ import ScrollToTop from './Element/ScrollToTop';
 class Markup extends Component{
 	render(){
 		return(
-			<BrowserRouter basename="/">
+			<Router>
                 <div className="page-wraper">
                     <Switch>
                         <Route path='/' exact component={Homepage} />
@@ -128,7 +128,7 @@ class Markup extends Component{
                 </div>
 				<ScrollToTop />
 				<ThemeButton />
-            </BrowserRouter>	
+            </Router>	
 		)
 	}
 	
