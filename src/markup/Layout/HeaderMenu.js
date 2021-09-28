@@ -10,7 +10,7 @@ class HeaderMenu extends Component{
 						
 					</li>
 					<li><Link to={'./about'}>About Us</Link></li>
-					<li><Link to={'./project'}>How Project management</Link></li>
+					<li><Link to={'./project'}>How Project Manage</Link></li>
 
 					<li><Link to={'./service'}>Our Service </Link></li>
 					
