@@ -1,6 +1,6 @@
 {
-  "name": "MoonInfoSys",
-  "homepage": "https://mooninfosys.com",
+  "name": "agency",
+  "homepage": "/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
